@@ -1,3 +1,7 @@
+body {
+  transition: background-color 1s ease;
+}
+
 #color {
   margin-top: 100px;
   text-align: center;
@@ -5,6 +9,7 @@
 }
 
 #change {
+  transition: color 1s ease;
   display: block;
   margin: 0 auto;
   height: 50px;
